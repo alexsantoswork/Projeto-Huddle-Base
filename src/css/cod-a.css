@@ -1,0 +1,28 @@
+html{
+    background: url(../images/bg-desktop.svg);
+    height: 800px;
+    max-width: 1440px;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.rua1 img {
+    position: relative;
+    top: 65px;
+    left: 80px;
+}
+
+.rua2 {
+    display: flex; 
+}
+
+.rua2 .casa1 img {
+    position: relative;
+    top: 120px;
+    left: 80px;
+    height: 490px;    
+}
+
+.rua2 .casa2 {
+    position: relative;
+    width: 510px;
+}

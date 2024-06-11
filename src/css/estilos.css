@@ -1,23 +1,75 @@
 html{
     background: url(../images/bg-desktop.svg);
-    height: 800px;
-    max-width: 1440px;
     background-color: hsl(257, 40%, 49%);
+    height: 100vh;
+    font-family: "Open Sans", sans-serif; 
+    color: white;
 }
 
-.rua1 img {
-    position: relative;
-    top: 65px;
-    left: 80px;
+.rua {
+    display: flex;
+    flex-direction: column;
 }
 
-.rua2 {
-    display: flex; 
+.casa1 {
+    padding: 64px 80px;
 }
 
-.rua2 .casa1 img {
-    position: relative;
-    top: 120px;
-    left: 80px;
-    height: 490px;    
+.casa2 {
+    display: flex;
+}
+
+.casa2 .sala img {
+    width: 695px;
+    margin-left: 80px;
+}
+
+.casa2 .quarto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 510px;
+    padding: 60px;
+}
+
+.casa2 .quarto h1 {
+    padding-bottom: 40px;
+}
+.casa2 .quarto p {
+    padding-bottom: 25px;
+}
+
+.casa2 .quarto a {
+    display: flex;
+    align-self: flex-start;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: grabbing;
+}
+
+.casa2 .quarto a:hover{
+    background-color: #e980e7ff;
+}
+
+.casa3 {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 80px;
+    padding-bottom: 40px;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 20px;
+    cursor: grabbing;
+}
+
+.fa-facebook-f .fa-twitter .fa-instagram, i:hover {
+    color: #e980e7ff;
 }
