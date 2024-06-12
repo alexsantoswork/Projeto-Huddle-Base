@@ -6,25 +6,25 @@ html{
     color: white;
 }
 
-.rua {
+.container {
     display: flex;
     flex-direction: column;
 }
 
-.casa1 {
+.logo {
     padding: 64px 80px;
 }
 
-.casa2 {
+.main {
     display: flex;
 }
 
-.casa2 .sala img {
+.main .imagem img {
     width: 695px;
     margin-left: 80px;
 }
 
-.casa2 .quarto {
+.main .texto {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,31 +32,34 @@ html{
     padding: 60px;
 }
 
-.casa2 .quarto h1 {
+.main .texto h1 {
     padding-bottom: 40px;
 }
-.casa2 .quarto p {
+.main .texto p {
     padding-bottom: 25px;
 }
 
-.casa2 .quarto a {
+.main .texto a {
     display: flex;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
     align-self: flex-start;
     text-decoration: none;
-    color: white;
+    font-weight: 500;
     width: 200px;
     height: 55px;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    cursor: grabbing;
+    cursor: pointer;
 }
 
-.casa2 .quarto a:hover{
+.main .texto a:hover{
     background-color: #e980e7ff;
+    color: white;
 }
 
-.casa3 {
+.footer {
     display: flex;
     align-self: flex-end;
     margin-right: 80px;
@@ -64,10 +67,11 @@ html{
 }
 
 .fa-facebook-f, .fa-twitter, .fa-instagram {
+    display: flex;    
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 20px;
-    cursor: grabbing;
+    cursor: unset;
 }
 
 .fa-facebook-f .fa-twitter .fa-instagram, i:hover {
