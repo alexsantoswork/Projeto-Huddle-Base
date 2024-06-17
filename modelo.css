@@ -1,12 +1,14 @@
 html{
     background: url(../images/bg-desktop.svg) no-repeat ;
     background-color: hsl(257, 40%, 49%);
+    width: 1440px;
+    height: 100vh;
     font-family: "Open Sans", sans-serif; 
     color: white;
 }
 
 .logo {
-    padding: 4em 5em 3.75em;
+    padding: 64px 80px 60px;
 }
 
 .main {
@@ -14,27 +16,25 @@ html{
 }
 
 .main .imagem img {
-    width: 43,438em;
-    margin-left: 5em;
+    width: 695px;
+    margin-left: 80px;
 }
 
 .main .texto {
     display: flex;
     flex-direction: column;
-    width: 36,3em;
-    padding: 3.75em;
+    width: 580px;
+    padding: 60px;
 }
 
 .main .texto h1 {
-    padding-bottom: 0.6em;
-    width: 12.3em;
-    font-size: 40px;
-    font-weight: 600;
+    padding-bottom: 40px;
+    width: 420px;
 }
 
 .main .texto p {
-    padding-bottom: 1.9em;
-    width: 32.5em;
+    padding-bottom: 30px;
+    width: 520px;    
 }
 
 .main .texto a {
@@ -44,13 +44,12 @@ html{
     align-self: flex-start;
     text-decoration: none;
     font-weight: 500;
-    width: 12.5em;
-    height: 3.45em;
+    width: 200px;
+    height: 55px;
     justify-content: center;
     align-items: center;
-    border-radius: 1.9em;
+    border-radius: 30px;
     cursor: pointer;
-    padding-bottom: ;
 }
 
 .main .texto a:hover{
@@ -61,16 +60,16 @@ html{
 .footer {
     display: flex;
     justify-content: flex-end;
-    margin-right: -3em;
-    margin-top: 1.2em;
-    padding-bottom: 2.8em;   
+    margin-right: 80px;
+    margin-top: 40px;
+    padding-bottom: 30px;
 }
 
 .fa-facebook-f, .fa-twitter, .fa-instagram {
     display: flex;    
     color: white;
-    font-size: 1.9em;
-    letter-spacing: 1.3em;
+    font-size: 30px;
+    letter-spacing: 20px;
     cursor: unset;
 }
 
